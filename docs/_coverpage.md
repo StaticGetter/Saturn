@@ -1,4 +1,4 @@
-![logo](./media/saturn.png)
+![logo](./_media/saturn.png)
 
 > A disrtibuted job scheduling platform
 
@@ -7,4 +7,4 @@
 - Fault tolerance
 
 [GitHub](https://github.com/vipshop/Saturn)
-[Docs](zh-cn/)
+[Docs](zh-cn/2.x/)

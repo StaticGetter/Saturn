@@ -15,6 +15,7 @@ JDK  >= 1.7
 - [ ] 检查是否能访问Saturn Console (参见Saturn Console部署指南)
 - [ ] 检查Saturn Console上是否有指定的namespace（可以从左侧树看到）
 - [ ] 检查是否能访问ZooKeeper (参见Saturn Console部署指南)。可以通过telnet 对应zk的端口，默认是（2181）
+- [ ] 如果你要部署的是Java作业，检查是否已经打包了一个*-app.zip的包。详情参见[Saturn作业开发指引之Java作业](./saturn-dev-java.md)
 
 ## 2 开始部署 ##
 
@@ -39,7 +40,7 @@ export VIP_SATURN_CONSOLE_URI=http://localhost:9088
         -/lib
         -/logs
         -saturn-executor.jar
-    
+
 
 /bin： 存放executor的启动脚本(saturn-executor.sh)
 
@@ -61,7 +62,9 @@ saturn-executor.jar：executor启动的主jar
 
 #### 2.3.2 部署Java作业
 
-Executor启动时会扫描 saturn目录的同级目录下的app目录并加载这个目录下（含子目录)所有的jar包定义的类(关于这个原理，请参考[Saturn架构文档](https://github.com/vipshop/Saturn/wiki/Saturn%E6%9E%B6%E6%9E%84%E6%96%87%E6%A1%A3) )，因此可以把开发好的jar包及其依赖包一起放在 app目录，目录结构如下：
+将开发并打包好的**-app.zip在/saturn-executor-{version}同一级目录进行解压。目录结构见下图。
+
+Executor启动时会扫描这个app目录，并加载这个目录下（含子目录)所有的jar包。
 
 ```
 saturn-executor-{version}
@@ -75,8 +78,6 @@ app
       - abc.jar
       - xyz.jar
 ```
-
-实际上，作业所依赖的library（即app目录下的jar）并不需要手工放置到指定路径，还可以通过Saturn的Maven/Gradle插件进行打包，打包后的包(.zip)既包括了Saturn的library也包括了业务library。插件使用指南请参见<TBD>
 
 ### 2.4 启动executor ###
 
