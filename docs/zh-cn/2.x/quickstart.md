@@ -34,13 +34,13 @@ quickstart-docker.sh脚本将做如下事情：
 
 启动成功后，您可以访问Saturn-Console：[http://localhost:9088](http://localhost:9088)
 
-## 2 完全搭建真实环境
-### 2.1 部署Saturn-Console
+## 3 完全搭建真实环境
+### 3.1 部署Saturn-Console
 详情见[部署Saturn-Console](zh-cn/2.x/saturn-console-deployment.md)
 
-### 2.2 开发作业
+### 3.2 开发作业
 * [开发Java作业](zh-cn/2.x/saturn-dev-java.md)
 * [开发Shell作业](zh-cn/2.x/saturn-dev-shell.md)
 
-### 2.3 部署Executor
+### 3.3 部署Executor
 详情见[部署Saturn Executor](zh-cn/2.x/saturn-executor-deployment.md)
