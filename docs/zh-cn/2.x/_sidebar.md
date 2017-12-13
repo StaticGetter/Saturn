@@ -1,7 +1,7 @@
 - 入门
   - [快速开始](zh-cn/2.x/quickstart.md)
   - [开发Java作业](zh-cn/2.x/saturn-dev-java.md)
-  - [开发Shell作业]()
+  - [开发Shell作业](zh-cn/2.x/saturn-dev-shell.md)
 
 - 部署
   - [部署Saturn Console](zh-cn/2.x/saturn-console-deployment.md)
