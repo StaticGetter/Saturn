@@ -59,7 +59,7 @@ JavaJobReturn是作业结果返回的封装。里面三个成员变量，包括�
 - returnMsg：返回信息。将显示在Console里面。没有默认值。
 - errorGroup：异常码。详情参见教程。
 
-## 3 在IDE中调试作业 ##
+## 3 在IDE中调试作业
 
 这一步会在IDE启动一个Executor进程。
 
@@ -74,15 +74,15 @@ JavaJobReturn是作业结果返回的封装。里面三个成员变量，包括�
 
 ### 3.2 IntelliJ IDEA
 
-![idea_mvn_run_config.png](../../_media/idea_mvn_run_config.jpg)
+![idea_mvn_run_config.png](_media/idea_mvn_run_config.jpg)
 
-4 在Console添加Java作业，并启动
+## 4 在Console添加Java作业
 
 当IDE启动了Executor后，作业还是不能执行，直到在Console添加和启动相应的Java作业。
 
 在Console添加一个Java作业，**作业实现类**必须是你所实现的Java作业的className。
 
-![add_java_job.png](../../_media/add_java_job.jpg)
+![add_java_job.png](_media/add_java_job.jpg)
 
 * 作业类型： 分为Java定时作业和Shell定时作业，这里选择Java定时作业
 * 作业名：作业ID标识，namespace下必须唯一
@@ -96,7 +96,7 @@ JavaJobReturn是作业结果返回的封装。里面三个成员变量，包括�
 
 然后启动这个作业
 
-![enable_java_job.png](../../_media/enable_java_job.jpg)
+![enable_java_job.png](_media/enable_java_job.jpg)
 
 如果一切正常会在IDE的console看到作业运行的日志，也可以在“分片”标签看到执行的结果。（当然，前提是作业到点执行了）
 
@@ -111,9 +111,9 @@ JavaJobReturn是作业结果返回的封装。里面三个成员变量，包括�
 
 下面是Console看到的结果：
 
-![java_job_successful.png](../../_media/java_job_successful.jpg)
+![java_job_successful.png](_media/java_job_successful.jpg)
 
-## 4 打包&部署 ##
+## 5 打包&部署 ##
 
 如果上述步骤没有问题，则意味着作业在本地验证通过。现在可以进行部署了。
 
