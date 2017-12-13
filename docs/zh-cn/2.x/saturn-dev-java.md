@@ -74,7 +74,7 @@ JavaJobReturn是作业结果返回的封装。里面三个成员变量，包括�
 
 ### 3.2 IntelliJ IDEA
 
-<img src="../../_media/idea_mvn_run_config.jpg" width="700">
+<img src="https://vipshop.github.io/Saturn/_media/idea_mvn_run_config.jpg" width="700">
 
 4 在Console添加Java作业，并启动
 
@@ -83,7 +83,7 @@ JavaJobReturn是作业结果返回的封装。里面三个成员变量，包括�
 在Console添加一个Java作业，**作业实现类**必须是你所实现的Java作业的className。
 
 
-<img src="../../_media/add_java_job.jpg" width="600">
+<img src="https://vipshop.github.io/Saturn/_media/add_java_job.jpg" width="600">
 
 * 作业类型： 分为Java定时作业和Shell定时作业，这里选择Java定时作业
 * 作业名：作业ID标识，namespace下必须唯一
@@ -97,7 +97,7 @@ JavaJobReturn是作业结果返回的封装。里面三个成员变量，包括�
 
 然后启动这个作业
 
-<img src="../../_media/enable_java_job.jpg">
+<img src="https://vipshop.github.io/Saturn/_media/enable_java_job.jpg">
 
 如果一切正常会在IDE的console看到作业运行的日志，也可以在“分片”标签看到执行的结果。（当然，前提是作业到点执行了）
 
@@ -112,7 +112,7 @@ JavaJobReturn是作业结果返回的封装。里面三个成员变量，包括�
 
 下面是Console看到的结果：
 
-<img src="../../_media/java_job_successful.jpg">
+<img src="https://vipshop.github.io/Saturn/_media/java_job_successful.jpg">
 
 ## 4 打包&部署 ##
 
