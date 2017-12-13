@@ -1,4 +1,5 @@
-## 1 快速开始（内嵌式）
+# 快速开始
+## 1 内嵌式
 首先，请确保本机环境：
 * Java 7.0+
 * Maven 3.0.4 +
@@ -13,7 +14,7 @@ quickstart脚本将做如下事情：
 
 启动完成后，您可以访问Saturn-Console：[http://localhost:9088](http://localhost:9088)
 
-## 2 快速开始（Docker环境）
+## 2 Docker环境
 
 ```
 $ git clone https://github.com/vipshop/Saturn
@@ -34,13 +35,7 @@ quickstart-docker.sh脚本将做如下事情：
 
 启动成功后，您可以访问Saturn-Console：[http://localhost:9088](http://localhost:9088)
 
-## 3 完全搭建真实环境
-### 3.1 部署Saturn-Console
-详情见[部署Saturn-Console](zh-cn/2.x/saturn-console-deployment.md)
-
-### 3.2 开发作业
-* [开发Java作业](zh-cn/2.x/saturn-dev-java.md)
-* [开发Shell作业](zh-cn/2.x/saturn-dev-shell.md)
-
-### 3.3 部署Executor
-详情见[部署Saturn Executor](zh-cn/2.x/saturn-executor-deployment.md)
+## 3 真实环境
+* [部署Saturn-Console](zh-cn/2.x/saturn-console-deployment.md)
+* [开发Java作业](zh-cn/2.x/saturn-dev-java.md) && [开发Shell作业](zh-cn/2.x/saturn-dev-shell.md)
+* [部署Saturn-Executor](zh-cn/2.x/saturn-executor-deployment.md)
