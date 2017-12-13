@@ -15,7 +15,7 @@ JDK  >= 1.7
 - [ ] 检查是否能访问Saturn Console (参见Saturn Console部署指南)
 - [ ] 检查Saturn Console上是否有指定的namespace（可以从左侧树看到）
 - [ ] 检查是否能访问ZooKeeper (参见Saturn Console部署指南)。可以通过telnet 对应zk的端口，默认是（2181）
-- [ ] 如果你要部署的是Java作业，检查是否已经打包了一个*-app.zip的包。详情参见[Saturn作业开发指引之Java作业](./saturn-dev-java.md)
+- [ ] 如果你要部署的是Java作业，检查是否已经打包了一个*-app.zip的包。详情参见[Saturn作业开发指引之Java作业](zh-cn/2.x/saturn-dev-java.md)
 
 ## 2 开始部署 ##
 

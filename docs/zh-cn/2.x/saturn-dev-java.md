@@ -67,14 +67,14 @@ JavaJobReturn是作业结果返回的封装。里面三个成员变量，包括�
 
 点工程右键 -> Run/Debug As -> Run Configuration 
 
-<img src="https://raw.githubusercontent.com/vipshop/Saturn/doc/userguide/eclipse1.png" width="700">
+![eclipse_mvn_run_config.png](_media/eclipse_mvn_run_config.png)
 
 - namespace： 命名空间。命名空间用于对作业进行分组，作业必须属于某个命名空间，同一个命名空间下的作业名不能重复。
 - executorName：执行结点唯一标识
 
 ### 3.2 IntelliJ IDEA
 
-<img src="https://vipshop.github.io/Saturn/_media/idea_mvn_run_config.jpg" width="700">
+![idea_mvn_run_config.png](../../_media/idea_mvn_run_config.jpg)
 
 4 在Console添加Java作业，并启动
 
@@ -82,8 +82,7 @@ JavaJobReturn是作业结果返回的封装。里面三个成员变量，包括�
 
 在Console添加一个Java作业，**作业实现类**必须是你所实现的Java作业的className。
 
-
-<img src="https://vipshop.github.io/Saturn/_media/add_java_job.jpg" width="600">
+![add_java_job.png](../../_media/add_java_job.jpg)
 
 * 作业类型： 分为Java定时作业和Shell定时作业，这里选择Java定时作业
 * 作业名：作业ID标识，namespace下必须唯一
@@ -97,7 +96,7 @@ JavaJobReturn是作业结果返回的封装。里面三个成员变量，包括�
 
 然后启动这个作业
 
-<img src="https://vipshop.github.io/Saturn/_media/enable_java_job.jpg">
+![enable_java_job.png](../../_media/enable_java_job.jpg)
 
 如果一切正常会在IDE的console看到作业运行的日志，也可以在“分片”标签看到执行的结果。（当然，前提是作业到点执行了）
 
@@ -112,7 +111,7 @@ JavaJobReturn是作业结果返回的封装。里面三个成员变量，包括�
 
 下面是Console看到的结果：
 
-<img src="https://vipshop.github.io/Saturn/_media/java_job_successful.jpg">
+![java_job_successful.png](../../_media/java_job_successful.jpg)
 
 ## 4 打包&部署 ##
 

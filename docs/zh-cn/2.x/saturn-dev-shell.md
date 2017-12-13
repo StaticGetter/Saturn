@@ -4,7 +4,7 @@ Shell作业实际上不局限于Shell脚本，还可以是一切能在Executor�
 
 具体原理见下图。在满足调度条件时，Saturn Executor会调用System.exec()去调用脚本/程序。
 
-![shell原理](../_media/saturn_shell_原理.jpg)
+![shell原理](_media/saturn_shell_原理.jpg)
 
 ## 1 开发第一个Shell作业 ##
 
@@ -30,7 +30,7 @@ chmod +x /apps/sh/demojob.sh
 
 ## 2 启动Executor
 
-下载并启动一个Executor。详情参见[Saturn Executor部署指南](/zh-cn/2.x/saturn-executor-deployment.md).
+下载并启动一个Executor。详情参见[Saturn Executor部署指南](zh-cn/2.x/saturn-executor-deployment.md).
 
 ## 3 在Console添加Shell作业，并启动
 
@@ -38,13 +38,13 @@ chmod +x /apps/sh/demojob.sh
 
 在Console添加一个Shell作业。
 
-![add shell job](../_media/add_shell_job.jpg)
+![add shell job](_media/add_shell_job.jpg)
 
 留意分片参数。参数的值是执行/apps/sh/demojob.sh脚本的命令。
 
 并启动这个作业
 
-![enable shell job](../_media/enable_shell_job.jpg)
+![enable shell job](_media/enable_shell_job.jpg)
 
 如果一切正常会在IDE的console看到作业运行的日志，也可以在“分片”标签看到执行的结果。（当然，前提是作业到点执行了）
 
@@ -59,6 +59,6 @@ chmod +x /apps/sh/demojob.sh
 
 下面是Console看到的结果：
 
-![shell job successfully](../_media/shell_job_successful.jpg)
+![shell job successfully](_media/shell_job_successful.jpg)
 
 至此，你的第一个Shell作业已经顺利开发完成！

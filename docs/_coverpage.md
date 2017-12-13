@@ -1,6 +1,6 @@
-![logo](./_media/saturn.png)
+![logo](_media/saturn.png)
 
-> A disrtibuted job scheduling platform
+> A distributed job scheduling platform
 
 - Simple
 - High availability
