@@ -93,7 +93,7 @@ INSERT INTO sys_config(property,value) values('CONSOLE_ZK_CLUSTER_MAPPING','defa
 如果你有多个zk集群和console集群，则需要指定console集群和zk集群的关系，下面是例子：
 
 ```mysql
-INSERT INTO sys_config(property,value) values('CONSOLE_ZK_CLUSTER_MAPPING','console-gd:cluster1,console-bj:cluster2');
+INSERT INTO sys_config(property,value) values('CONSOLE_ZK_CLUSTER_MAPPING','console-gd:cluster1;console-bj:cluster2');
 ```
 
 这个例子表示console集群为console-gd的console管辖cluster1的作业，而console集群console-bj管辖cluster2的作业。关于如何指定console属于哪个console集群，见下面**2.4 安装Console**。
