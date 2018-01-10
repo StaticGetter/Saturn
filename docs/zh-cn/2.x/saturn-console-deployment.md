@@ -10,7 +10,7 @@ Linux服务器至少1台，服务器数量视乎计划的Saturn Console的集群
 
 JDK  >= 1.7
 
-ZooKeeper >= 3.4.6
+ZooKeeper >= 3.4.6 （建议使用ZooKeeper 3.4.6 ([官网下载链接](https://archive.apache.org/dist/zookeeper/zookeeper-3.4.6/))，更高版本未经验证）
 
 ## 2 开始部署
 
@@ -138,4 +138,5 @@ JDK 1.8:
 | SATURN_CONSOLE_DB_PASSWORD               | 都支持            | 密码                                | Y    |
 | SATURN_CONSOLE_LOG                       | 都支持            | 日志目录。默认是/apps/logs/saturn_console | N    |
 | VIP_SATURN_DASHBOARD_REFRESH_INTERVAL_MINUTE | 都支持            | Dashboard后台刷新频率，单位是分钟。默认值是1。      | N    |
+| server.port | JVM参数           | 启动端口，默认9088      | N    |
 
